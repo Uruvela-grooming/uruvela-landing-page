@@ -1,0 +1,355 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Uruvela Grooming Pvt Ltd | Redefining Personal Care</title>\
+    <link rel="preconnect" href="https://fonts.googleapis.com">\
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">\
+    \
+    <style>\
+        :root \{\
+            --bg-dark: #0f1115;\
+            --bg-card: #181b22;\
+            --accent-gold: #c5a059;\
+            --accent-gold-hover: #d4b26f;\
+            --text-main: #f3f4f6;\
+            --text-muted: #9ca3af;\
+            --border-color: #2d323b;\
+        \}\
+\
+        * \{\
+            margin: 0;\
+            padding: 0;\
+            box-sizing: border-box;\
+            scroll-behavior: smooth;\
+        \}\
+\
+        body \{\
+            font-family: 'Plus Jakarta Sans', sans-serif;\
+            background-color: var(--bg-dark);\
+            color: var(--text-main);\
+            line-height: 1.6;\
+        \}\
+\
+        h1, h2, h3, .brand-title \{\
+            font-family: 'Playfair Display', serif;\
+        \}\
+\
+        /* Navbar */\
+        header \{\
+            position: fixed;\
+            top: 0;\
+            left: 0;\
+            width: 100%;\
+            background: rgba(15, 17, 21, 0.95);\
+            backdrop-filter: blur(10px);\
+            border-bottom: 1px solid var(--border-color);\
+            z-index: 1000;\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: center;\
+            padding: 1.2rem 5%;\
+        \}\
+\
+        .logo \{\
+            font-size: 1.4rem;\
+            font-weight: 700;\
+            letter-spacing: 1px;\
+            color: var(--text-main);\
+        \}\
+\
+        .logo span \{\
+            color: var(--accent-gold);\
+        \}\
+\
+        nav a \{\
+            color: var(--text-muted);\
+            text-decoration: none;\
+            margin-left: 2rem;\
+            font-size: 0.95rem;\
+            transition: color 0.3s ease;\
+        \}\
+\
+        nav a:hover \{\
+            color: var(--accent-gold);\
+        \}\
+\
+        /* Hero Section */\
+        .hero \{\
+            height: 100vh;\
+            display: flex;\
+            flex-direction: column;\
+            justify-content: center;\
+            align-items: center;\
+            text-align: center;\
+            padding: 0 1rem;\
+            background: linear-gradient(rgba(15, 17, 21, 0.7), rgba(15, 17, 21, 0.9)), url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;\
+        \}\
+\
+        .hero h1 \{\
+            font-size: 3.5rem;\
+            max-width: 900px;\
+            margin-bottom: 1.5rem;\
+            color: #ffffff;\
+        \}\
+\
+        .hero p \{\
+            font-size: 1.2rem;\
+            color: var(--text-muted);\
+            max-width: 600px;\
+            margin-bottom: 2rem;\
+        \}\
+\
+        .btn \{\
+            background-color: var(--accent-gold);\
+            color: var(--bg-dark);\
+            padding: 0.8rem 2rem;\
+            border-radius: 4px;\
+            font-weight: 600;\
+            text-decoration: none;\
+            transition: background 0.3s ease, transform 0.2s ease;\
+        \}\
+\
+        .btn:hover \{\
+            background-color: var(--accent-gold-hover);\
+            transform: translateY(-2px);\
+        \}\
+\
+        /* Container Sections */\
+        section \{\
+            padding: 6rem 10%;\
+        \}\
+\
+        .section-title \{\
+            text-align: center;\
+            font-size: 2.5rem;\
+            margin-bottom: 1rem;\
+        \}\
+\
+        .section-subtitle \{\
+            text-align: center;\
+            color: var(--text-muted);\
+            margin-bottom: 4rem;\
+            font-size: 1.1rem;\
+        \}\
+\
+        /* About Section */\
+        .about-grid \{\
+            display: grid;\
+            grid-template-columns: 1fr 1fr;\
+            gap: 4rem;\
+            align-items: center;\
+        \}\
+\
+        .about-text p \{\
+            margin-bottom: 1.5rem;\
+            color: var(--text-muted);\
+        \}\
+\
+        .about-card \{\
+            background: var(--bg-card);\
+            border: 1px solid var(--border-color);\
+            padding: 2.5rem;\
+            border-radius: 8px;\
+        \}\
+\
+        /* Activities & Partnership */\
+        .activities-grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\
+            gap: 2rem;\
+        \}\
+\
+        .card \{\
+            background: var(--bg-card);\
+            border: 1px solid var(--border-color);\
+            padding: 2.5rem;\
+            border-radius: 8px;\
+            transition: border-color 0.3s ease;\
+        \}\
+\
+        .card:hover \{\
+            border-color: var(--accent-gold);\
+        \}\
+\
+        .card h3 \{\
+            margin-bottom: 1rem;\
+            font-size: 1.5rem;\
+            color: var(--text-main);\
+        \}\
+\
+        .card p \{\
+            color: var(--text-muted);\
+            margin-bottom: 1.5rem;\
+        \}\
+\
+        .card a.text-link \{\
+            color: var(--accent-gold);\
+            text-decoration: none;\
+            font-weight: 600;\
+        \}\
+\
+        .card a.text-link:hover \{\
+            text-decoration: underline;\
+        \}\
+\
+        /* Team Section */\
+        .team-grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
+            gap: 2rem;\
+        \}\
+\
+        .team-member \{\
+            background: var(--bg-card);\
+            border: 1px solid var(--border-color);\
+            padding: 2rem;\
+            text-align: center;\
+            border-radius: 8px;\
+        \}\
+\
+        .team-member h3 \{\
+            margin-top: 1rem;\
+            font-size: 1.2rem;\
+        \}\
+\
+        .team-member span \{\
+            color: var(--accent-gold);\
+            font-size: 0.9rem;\
+        \}\
+\
+        /* Coming Soon Banner */\
+        .coming-soon \{\
+            background: linear-gradient(135deg, #181b22 0%, #1f242e 100%);\
+            border: 1px solid var(--accent-gold);\
+            border-radius: 12px;\
+            padding: 4rem 2rem;\
+            text-align: center;\
+            margin-top: 4rem;\
+        \}\
+\
+        .coming-soon h3 \{\
+            font-size: 2rem;\
+            margin-bottom: 1rem;\
+        \}\
+\
+        .coming-soon p \{\
+            color: var(--text-muted);\
+            max-width: 600px;\
+            margin: 0 auto;\
+        \}\
+\
+        /* Footer */\
+        footer \{\
+            background: #090a0d;\
+            border-top: 1px solid var(--border-color);\
+            padding: 3rem 10%;\
+            text-align: center;\
+            color: var(--text-muted);\
+            font-size: 0.9rem;\
+        \}\
+\
+        footer p \{\
+            margin-bottom: 0.5rem;\
+        \}\
+\
+        @media (max-width: 768px) \{\
+            .hero h1 \{ font-size: 2.5rem; \}\
+            .about-grid \{ grid-template-columns: 1fr; gap: 2rem; \}\
+            nav \{ display: none; \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <header>\
+        <div class="logo">URUVELA <span>GROOMING</span></div>\
+        <nav>\
+            <a href="#about">About</a>\
+            <a href="#activities">Activities</a>\
+            <a href="#partners">Partnerships</a>\
+            <a href="#team">Team</a>\
+        </nav>\
+    </header>\
+\
+    <section class="hero">\
+        <h1>Elevating Personal Care & Grooming Standards</h1>\
+        <p>Parent company of exclusive luxury grooming brands and custodians of exceptional heritage craftsmanship in India.</p>\
+        <a href="#about" class="btn">Discover Our Company</a>\
+    </section>\
+\
+    <section id="about">\
+        <h2 class="section-title">About Uruvela Grooming</h2>\
+        <p class="section-subtitle">Bridging heritage wet-shaving and modern lifestyle needs.</p>\
+        \
+        <div class="about-grid">\
+            <div class="about-text">\
+                <p>Founded with a vision to redefine personal care, Uruvela Grooming Pvt Ltd curates and represents globally renowned grooming brands that champion sustainability, precision, and timeless design.</p>\
+                <p>We believe that daily grooming should be a mindful, meditative ritual rather than a routine chore. By bringing world-class artisan manufacturers directly to discerning consumers across India, we set a benchmark for refined personal care.</p>\
+            </div>\
+            <div class="about-card">\
+                <h3 style="color: var(--accent-gold); margin-bottom: 1rem;">Corporate Vision</h3>\
+                <p style="color: var(--text-muted);">To introduce uncompromising German and international craftsmanship into modern Indian households, fostering an appreciation for traditional wet-shaving culture and sustainable luxury care.</p>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section id="activities" style="background-color: #12151b;">\
+        <h2 class="section-title">Activities & Partnerships</h2>\
+        <p class="section-subtitle">What drives our brand ecosystem.</p>\
+\
+        <div class="activities-grid">\
+            <div class="card" id="partners">\
+                <h3>Exclusive M\'dcHLE Representation</h3>\
+                <p>Uruvela Grooming is the authorized corporate partner and representative of <strong>M\'dcHLE</strong> in India, supplying legendary safety razors, silvertip badger brushes, and organic care ranges.</p>\
+                <a href="https://muehle-shaving.in/" target="_blank" class="text-link">Visit M\'dcHLE India Store &rarr;</a>\
+            </div>\
+            <div class="card">\
+                <h3>Retail Curation & Distribution</h3>\
+                <p>We specialize in identifying exceptional lifestyle and grooming labels, ensuring seamless fulfillment, brand equity management, and premium distribution channels pan-India.</p>\
+            </div>\
+            <div class="card">\
+                <h3>Culture & Community</h3>\
+                <p>Fostering the wet-shaving community through educational insights, craftsmanship spotlights, and emphasizing sustainable grooming solutions that stand the test of time.</p>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section id="team">\
+        <h2 class="section-title">Leadership Team</h2>\
+        <p class="section-subtitle">The minds behind Uruvela Grooming.</p>\
+\
+        <div class="team-grid">\
+            <div class="team-member">\
+                <h3>Maitrey Anish Goel</h3>\
+                <span>Director</span>\
+            </div>\
+            <div class="team-member">\
+                <h3>Tejaswini Maitrey Goel</h3>\
+                <span>Director</span>\
+            </div>\
+        </div>\
+\
+        <div class="coming-soon">\
+            <h3>Coming Soon: Next-Gen Razor & Grooming Lines</h3>\
+            <p>We are expanding our horizon. Stay tuned for upcoming bespoke razor collections, advanced grooming accessories, and specialized skin care formulations tailored for the modern connoisseur.</p>\
+        </div>\
+    </section>\
+\
+    <footer>\
+        <p>&copy; 2026 Uruvela Grooming Private Limited. All rights reserved.</p>\
+        <p>Registered Office: Plot No. 08, F/Floor, Sector 11, Dwarka, New Delhi, 110075, India.</p>\
+    </footer>\
+\
+</body>\
+</html>\
+}
